@@ -240,3 +240,4 @@ export async function getUser(email: string) {
     throw new Error('Failed to fetch user.');
   }
 }
+export const dynamic = 'force-dynamic'
